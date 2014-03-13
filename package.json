@@ -31,7 +31,7 @@
     "mocha": "*"
   },
   "test": {
-    "test": "grunt test"
+    "test": "./node_modules/.bin/grunt test"
   },
   "author": "clonn",
   "license": "MIT"

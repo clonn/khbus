@@ -1,8 +1,8 @@
 {
-  "name": "KH-bus",
+  "name": "khbus",
   "version": "0.0.1",
   "description": "kh restful api",
-  "main": "node app.js",
+  "main": "node out/index.js",
   "directories": {
     "doc": "docs",
     "test": "test"
@@ -10,11 +10,14 @@
   "scripts": {
     "compile": "grunt complie",
     "watch": "grunt watch",
-    "start": "node out/app.js"
+    "test": "grunt test",
+    "start": "node out/index.js"
   },
   "dependencies": {
     "express": "~3.3.8",
-    "jade": "~0.35.0"
+    "jade": "~0.35.0",
+    "bunyan": "~0.22.1",
+    "request": "~2.34.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

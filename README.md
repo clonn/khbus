@@ -3,11 +3,9 @@ khbus
 
 Taiwan Kaohsiung bus API - node.js client version.
 
-##compile
-
-it code by coffeescript, so you have to compile to javascript version first.
-
-    npm compile
+##Usage
+  
+    npm install khbus
 
 ##Execute
 
@@ -16,6 +14,17 @@ it code by coffeescript, so you have to compile to javascript version first.
     bus.getBus (data) ->
       data.should.be.an.instanceOf(Object)
       data["143"].should.eql({ number: '0北', stop: '金獅湖站－金獅湖站' })
+
+##Compile
+
+it code by coffeescript, so you have to compile to javascript version first.
+
+    npm compile
+
+##Test
+  
+    npm test
+    grunt test
 
 ##Origin source
 

@@ -1,10 +1,12 @@
 khbus
 =====
 
+[![Build Status](https://travis-ci.org/clonn/khbus.png?branch=master)](https://travis-ci.org/clonn/khbus)
+
 Taiwan Kaohsiung bus API - node.js client version.
 
 ##Usage
-  
+
     npm install khbus
 
 ##Execute
@@ -22,7 +24,7 @@ it code by coffeescript, so you have to compile to javascript version first.
     npm compile
 
 ##Test
-  
+
     npm test
     grunt test
 
